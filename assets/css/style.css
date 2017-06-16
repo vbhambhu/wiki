@@ -1,0 +1,68 @@
+body {
+  padding-top: 20px;
+}
+
+
+#intro{
+    min-height: 500px;
+    background-color: #d0edff;
+    background-image: url('../images/banner.png');
+    background-size: 70%;
+    background-position: center bottom !important;
+     background-repeat: no-repeat;
+     text-align: center;
+
+
+
+}
+
+
+
+
+/* Alignment styles for images, videos and iframes in editable regions */
+
+/* Center (default) */
+[data-editable] iframe,
+[data-editable] image,
+[data-editable] [data-ce-tag=img],
+[data-editable] img,
+[data-editable] video {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Left align */
+[data-editable] .align-left {
+    clear: initial;
+    float: left;
+    margin-right: 0.5em;
+}
+
+/* Right align */
+[data-editable].align-right {
+    clear: initial;
+    float: right;
+    margin-left: 0.5em;
+}
+
+/* Alignment styles for text in editable regions */
+[data-editable] .text-center {
+    text-align: center;
+}
+
+[data-editable] .text-left {
+    text-align: left;
+}
+
+[data-editable] .text-right {
+    text-align: right;
+}
+
+
+pre{
+        background: #f8f8f8;
+        padding: 10px;
+}
